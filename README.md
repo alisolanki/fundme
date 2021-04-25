@@ -2,8 +2,10 @@
 
 Fund Me helps raise funding for Projects using Quadratic Funding
 
-[![Fund Me demo1](https://github.com/alisolanki/fundme/blob/master/ss1.png)]
-[![Fund Me demo2](https://github.com/alisolanki/fundme/blob/master/ss2.png)]
+## Connect wallet (Portis + Polygon(Matic) integration)
+![Fund Me demo1](https://github.com/alisolanki/fundme/blob/master/ss1.png)
+## Dashboard
+![Fund Me demo2](https://github.com/alisolanki/fundme/blob/master/ss2.png)
 
 ## Installation
 
