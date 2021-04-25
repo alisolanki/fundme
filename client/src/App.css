@@ -1,0 +1,66 @@
+body {
+  padding: 25px;
+  background-color: rgb(39, 39, 39);
+  color: white;
+  font-size: 25px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App .loading {
+  color: purple;
+  font-family: monospace;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 10px;
+  color: rgb(68, 68, 68);
+  justify-content: center;
+  padding: 20px;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.projects {
+  padding: 5px;
+  font-size: 70%;
+}
+
+.input {
+  padding-top: 20px;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}

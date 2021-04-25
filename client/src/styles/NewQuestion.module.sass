@@ -1,0 +1,141 @@
+@import ./MediaQueries
+
+.newQuestionContainer
+  min-height: 80vh
+  width: 1296px
+  margin: 0 auto
+
+  display: grid
+  place-items: center
+
+
+  @include max-medium-width
+    width: 688px
+
+  @include max-tablet-width
+    width: 320px
+
+  @include max-tablet-width
+    width: 90%
+
+
+
+.newQuestion
+  width: 60%
+
+  box-shadow: 2px 2px 10px rgba(39, 40, 41, 0.1)
+  border-bottom-right-radius: 24px
+
+  margin: 0 auto
+  padding: 48px
+
+  @include max-medium-width
+    width: 100%
+
+  @include max-tablet-width
+    padding: 32px
+
+.heading
+  font-size: 22px
+
+  @include max-tablet-width
+    font-size: 18px 
+
+
+.fieldContainer
+  width: 100%
+
+  display: flex
+  justify-content: center
+  align-items: center
+
+  margin-top: 24px
+
+.optionContainer
+  display: grid
+
+  grid-template-columns: 1fr 1fr
+  gap: 12px
+
+  @include max-tablet-width
+    display: initial
+
+.addOption
+  margin: 24px 0 
+  button
+    background: none
+    outline: none
+    border: none
+
+    font-size: 14px
+    text-align: center
+
+    background-color: #05b16a
+    color: white
+    padding: 8px
+
+    cursor: pointer
+    border-radius: 8px
+
+  & :first-child
+    margin-right: 16px
+
+  & :last-child
+    background-color: #e04545
+
+.addQuestionButton
+  background: none
+  outline: none
+  border: none
+
+  font-size: 14px
+  text-align: center
+
+  background-color: #0779e4
+  color: white
+  padding: 16px
+  margin-top: 16px
+
+  cursor: pointer
+  border-radius: 8px
+
+.datePickerContainer
+  width: max-content
+  display: flex
+  flex-direction: column
+
+  margin: 16px 0
+
+  label
+    font-size: 14px
+
+.customInput
+  width: 92%
+  outline: none
+  border: none
+
+  font-size: 14px
+  padding-top: 8px
+  padding-bottom: 4px
+
+  text-align: start
+
+  border-bottom: 1px solid #929292
+
+.loadingAnimationContainer
+  display: grid
+  place-items: center
+
+  height: 90vh
+
+.pleaseWait
+  display: grid
+  place-items: center
+
+  p
+    font-size: 16px
+    font-weight: 500
+
+    margin: 18px 0
+
+    text-align: center

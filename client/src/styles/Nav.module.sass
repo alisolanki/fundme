@@ -1,0 +1,137 @@
+@import "variables"
+@import './MediaQueries'
+
+.nav
+  display: flex
+  width: 1296px
+  height: 10vh
+
+  margin: 0 auto
+
+  align-items: center
+  justify-content: space-between
+
+  @include max-medium-width
+    width: 688px
+
+  @include max-tablet-width
+    width: 320px
+
+
+.logo
+  display: flex
+  flex-direction: column
+
+  font-family: $primary-font
+  font-weight: 700
+  font-size: 20px
+
+  line-height: 1
+
+  text-transform: uppercase
+
+  @include max-tablet-width
+    font-size: 18px
+
+  @include max-mobile-width
+    font-size: 16px
+
+.navOptions
+  list-style: none
+
+  display: flex
+  align-items: center
+  justify-content: center
+
+  button
+    outline: none
+    border: none
+    background: none
+
+.btn:hover
+    color: rgb(16, 187, 52)
+    border: 1px solid rgb(16, 187, 52)
+    border-radius: 4px
+    background-color: rgb(255, 255, 255)
+
+.btn
+  border: 1px solid rgb(223, 223, 223)
+  border-radius: 4px
+  background-color: rgb(255, 255, 255)
+  cursor: pointer
+  display: flex
+  margin-bottom: 8px
+  box-sizing: border-box
+  height: 56px
+  width: 320px
+
+  @include max-mobile-width
+    width: 100%
+
+.btntxt
+  height: 24px
+  width: -moz-fit-content
+  color: rgb(18, 20, 30)
+  font-size: 16px
+  letter-spacing: 0px
+  text-align: center
+  line-height: 24px
+  margin: 16px auto 16px 24px
+  float: left
+
+.btnlogo
+  height: 24px
+  width: 24px
+  margin: 16px 24px 16px auto
+  display: inline-block
+
+.signup
+  display: flex
+  align-items: center
+  justify-content: center
+
+  font-size: 14px
+  background-color: #262626
+  color: #fff
+  padding: 12px
+  
+  border-radius: 12px
+
+  cursor: pointer
+
+  @include max-tablet-width
+    font-size: 12px
+
+  .img
+    width: 24px
+    height: 24px
+
+    @include max-tablet-width
+      width: 18px
+      height: 18px
+
+      display: initial
+      margin-right: 0
+
+  .emoji
+    display: grid
+    place-items: center
+    width: 24px
+    height: 24px
+
+    font-size: 18px
+
+    margin-right: 6px
+
+    @include max-tablet-width
+      width: 18px
+      height: 18px
+
+      font-size: 14px
+
+      display: initial
+      margin-right: 0
+
+  span
+    @include max-tablet-width
+      display: none
